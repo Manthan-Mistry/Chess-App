@@ -1,6 +1,6 @@
 # 📄 About Project
 
-![App Flow Diagram]()
+![App Flow Diagram](https://github.com/Manthan-Mistry/Chess-App/blob/main/assets/diagram-2-2.svg)
 
 ## 🔍 Project Overview
 The main purpose of making this project is to showcase my ability to work around ***Data Extraction (APIs)***, ***Data Manipulation (Python)***, ***Data Visualization (Streamlit + Plotly)***, and convey findings in a clear and concise manner.  
