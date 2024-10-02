@@ -1,0 +1,246 @@
+/* App Background styling */
+.stApp {
+    background-image: url("data:image/jpg;base64,{{image_base64}}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Change the color of widget labels and titles */
+.stMarkdown {
+    color: #ffffff;  /* Title and label text color */
+}
+
+/* Widget CSS: */
+.stSelectbox label, 
+.stTextInput label, 
+.stNumberInput label,
+.stSlider label,
+.stTabs label,
+.stCheckbox label,
+.stRadio label,
+.stMultiSelect label 
+.stTextInput, .stNumberInput, .stSlider, .stCheckbox, .stRadio label, .stMultiSelect, .stRadio {
+    color: #ffffff;  /* Color for text within widgets */
+}
+
+.stApp > header {
+    background-color: rgba(0, 0, 0, 0);  /* Transparent background */
+    color: white;  /* Hide the text */
+}
+
+/* Progress Bar CSS:  */
+.stProgress .st-bo {
+    background-color: #69923E;
+}
+
+/* Player Info CSS: */
+h2{
+    color: white;
+}
+.st-emotion-cache-sy3zga {
+    color: black;
+}
+/* Text color in st.selectbox */
+div[data-baseweb="select"] > div {
+    color: black;
+}
+
+/* Set background color for radio options */
+div[data-testid="stRadio"] {
+    background-color: white; 
+    padding: 10px;  /* Add some padding */
+    border-radius: 10px;  /* Round the corners */
+}
+
+/* Set the radio option text color */
+div[data-testid="stRadio"] > label > div {
+    color: black;  
+}
+
+/* White Text in st.Tab */
+.st-bc{
+    color: white;
+}
+.st-emotion-cache-1r4qj8v {
+    color: white;
+}
+.st-emotion-cache-1h9usn1 {
+    border-color: white;
+}
+.st-emotion-cache-1vt4y43 {
+    color: black;
+}
+
+/*  Metric Card CSS Style: */
+.metric-container {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    height: 100px; /* Fixed height */
+    width: 200px;  /* Adjust the width here */
+    margin: 5px;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+
+.metric-container-spec {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 0px;
+    height: 100px; /* Fixed height */
+    width: 200px;  /* Adjust the width here */
+    margin: 5px;
+    margin-left:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    background-color:#fff;
+}
+.metric-label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+.metric-value {
+    font-size: 24px;
+    color: #333;
+}
+.metric-label-spec {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+.metric-value-spec {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}        
+.metric-delta {
+    font-size: 14px;
+    color: rgba(0,155,0);
+    font-weight:bold;
+}
+.metric-delta-grey {
+    font-size: 14px;
+    color: grey;
+    font-weight:bold;
+}
+.value-win {
+    color: green;
+}
+.value-draw {
+    color: grey;
+}
+.value-loss {
+    color: red;
+}
+ /* Player-Info CSS Styles: */
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #2b2b4b;
+    border-radius: 10px;
+    color: white;
+    /* # width: auto;
+    # max-width: 100%; */
+    box-sizing: border-box;
+}
+.player-info {
+    display: flex;
+    flex-direction: column;
+    margin-left:75px;
+}
+.name-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.title {
+    background-color: #9c4418;
+    padding: 1px 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.player-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.country-flag img {
+    width: 20px;
+    height: 15px;
+    margin-left:5px;
+}
+.badge {
+    margin-left: 0px;
+    font-size: 15px;
+}
+.full-name-location {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #b3b3b3;
+}
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #b3b3b3;
+    gap: 50px;
+}
+.info-box {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #3c3c6b;
+    border-radius: 5px;
+    width:250px;
+}
+.icon {
+    margin-right: 5px;
+    font-size:15px;
+}
+
+/* Divider Line CSS */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #fff;  /* Change divider line color */
+}
+
+/* Plotly Chart Background color: */
+.stPlotlyChart {
+    outline: 5px solid #fff;
+    border-radius: 5px;
+    background-color: white;
+    justify-content:center;
+}
+
+/* Caption Text color CSS: */
+.st-emotion-cache-194b4og {
+    color:white;
+    border-radius:5px;
+}
+
+.custom-progress-bar div[role="progressbar"] {
+    background-color: #4CAF50 !important;  /* Change this to the color you want */
+}
+
+.st-emotion-cache-1dnj9gs:hover{
+    border-color: rgba(255, 255, 255, 0.6);
+}
