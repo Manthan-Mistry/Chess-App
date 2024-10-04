@@ -1,5 +1,7 @@
 # 📄 About Project
 
+Checkout App: [My-Chess-App](https://chess-app-6gxb.onrender.com/)
+
 ![App Flow Diagram](https://github.com/Manthan-Mistry/Chess-App/blob/main/assets/diagram-2-2.svg)
 
 ## 🔍 Project Overview
